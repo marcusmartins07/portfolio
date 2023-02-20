@@ -18,7 +18,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #141F42 16.62%, #17244C 85.51%);
+    background: #242831;
 }
 
 /* HEADER */
@@ -26,12 +26,12 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 24px;
+    justify-content: space-between;
+    padding: 10px 75px;
 }
 
 .cabecalho-imagem {
-    height: 72px;
+    height: 50px;
 }
 
 .cabecalho-menu {
@@ -50,6 +50,7 @@ body {
 .conteudo {
     border-top: 0.4px solid antiquewhite;
     margin-bottom: 50px;
+    padding: 30px 75px;
 }
 
 .conteudo-principal {
@@ -66,10 +67,11 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
+    display: flex;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
-    color: antiquewhite;
+    color: #3770D4;
 }
 
 .conteudo-principal-escrito-subtitulo {
