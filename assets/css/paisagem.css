@@ -1,0 +1,122 @@
+/* HEADER */
+.cabecalho {
+    background: #3770D4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.cabecalho-imagem {
+    height: 50px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* MAIN */
+.conteudo {
+    border-top: 0.4px solid antiquewhite;
+    margin-bottom: 50px;
+    padding: 30px 100px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.conteudo-principal-escrito-titulo {
+    display: flex;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #3770D4;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #3770D4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 5px 4px rgba(0 ,0, 0, 0.25);
+    font-family: 'Sarala', sans-serif;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #141F42;
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+  }
+  
+  .conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+  }
+  
+  .conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+  }
+  
+  .rodape {
+      padding: 10px;
+      text-align: center;
+      color: antiquewhite;
+      border-top: 0.4px solid #FFF2E7;
+      font-family: 'Sarala', sans-serif;
+  }
+  
+  .rodape-paragrafo {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+  }
