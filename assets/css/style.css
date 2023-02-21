@@ -28,7 +28,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 0.8px solid antiquewhite;
+    border-bottom: 2px solid antiquewhite;
 }
 
 .cabecalho-imagem {
@@ -43,6 +43,15 @@ body {
     font-family: 'Sarala', sans-serif;
     color: white;
     font-weight: 400;
+    padding: 10px 10px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+
+.cabecalho-menu-item:hover {
+    background-color: white;
+    color: #3770D4;
 }
 
 /* MAIN */
@@ -79,11 +88,16 @@ body {
     font-family: 'Sarala', sans-serif;
     color: antiquewhite;
     font-weight: 400;
+    transition:all 0.3s ease;
 }
 
 .conteudo-principal-escrito-botao:hover {
-    background-color: #141F42;
+    background-color: white;
+    color: #3770D4;
+
 }
+
+
 
 /* REDES SOCIAIS */
 .imagens-redes-sociais {
@@ -92,6 +106,19 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
+
+.logo-rede-social {
+    border-radius: 50%;
+    cursor: pointer;
+    transition:all 0.3s ease-out;
+}
+
+.logo-rede-social:hover {
+    background-color: #3770D4;
+    color: white
+}
+
 
 
 /* CONTEUDO SECUNDARIO  */
@@ -198,6 +225,12 @@ body {
     color: antiquewhite;
     font-weight: 400;
     font-size: 1em;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+.texto-botao-projeto:hover {
+    background-color: white;
+    color: #3770D4;
 }
 
   /* FOOTER */
