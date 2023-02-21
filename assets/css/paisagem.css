@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 100px;
+    border-bottom: 0.8px solid antiquewhite;
 }
 
 .cabecalho-imagem {
@@ -26,7 +27,6 @@
 
 /* MAIN */
 .conteudo {
-    border-top: 0.4px solid antiquewhite;
     margin-bottom: 50px;
     padding: 30px 100px;
 }
@@ -67,7 +67,6 @@
     height: 60px;
     border: none;
     border-radius: 15px;
-    box-shadow: 4px 5px 4px rgba(0 ,0, 0, 0.25);
     font-family: 'Sarala', sans-serif;
     color: antiquewhite;
     font-weight: 400;
@@ -80,6 +79,24 @@
 
 .conteudo-principal-imagem {
     height: 430px;
+}
+
+@media (max-width: 950px) {
+    .conteudo-principal-escrito-titulo {
+        font-size: 3em;
+    }
+
+    .conteudo-principal-escrito-subtitulo {
+        font-size: 1.5em;
+    }
+
+    .conteudo-principal-escrito-botao {
+        font-size: 1.5em;
+    }
+    
+    .conteudo-principal-imagem {
+        height: 300px;
+    }
 }
 
 /* REDES SOCIAIS */
@@ -103,12 +120,12 @@
   }
   
   .conteudo-secundario-titulo {
-    border-top: 0.4px solid #FFF2E7;
+    border-top: 0.4px solid antiquewhite;
     padding-top: 30px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #FFF2EF;
+    color: antiquewhite;
     margin-bottom: 16px;
     text-align: center;
   }
@@ -117,14 +134,14 @@
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #ECD6C4;
+    color: antiquewhite;
   }
   
   .rodape {
       padding: 10px;
       text-align: center;
       color: antiquewhite;
-      border-top: 0.4px solid #FFF2E7;
+      border-top: 0.4px solid antiquewhite;
       font-family: 'Sarala', sans-serif;
   }
   
