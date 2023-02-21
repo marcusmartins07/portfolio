@@ -84,20 +84,20 @@
   /* PROJETOS */
 .conteudo-terciario {
     font-size: 1em;
-    margin: 30px 15px 0px 15px;
-}
-
-.titulo-projetos {
-    padding: 15px;
-    font-size: 2em;
+    margin: 30px 15px 30px 15px;
 }
 
 .projetos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 15px 10px;
+    gap: 25px 15px;
     justify-content: center;
+}
+
+.titulo-projetos {
+    padding: 15px;
+    font-size: 2em;
 }
 
 .conteudo-projetos{
@@ -118,7 +118,6 @@
 }
 
 .titulo-imagem-projeto {
-    margin-top: 5px;
     font-size: 1em;
     text-align: center;
     color: #3770D4;
