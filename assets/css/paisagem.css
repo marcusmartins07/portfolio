@@ -43,7 +43,7 @@
 }
 
 .conteudo-principal-escrito-subtitulo {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .conteudo-principal-escrito-botao {
@@ -54,7 +54,7 @@
 }
 
 .conteudo-principal-imagem {
-    height: 430px;
+    height: 400px;
 }
 
 @media (max-width: 950px) {
@@ -91,7 +91,7 @@
   
   .conteudo-secundario-titulo {
     padding-top: 30px;
-    font-size: 24px;
+    font-size: 2em;
     margin-bottom: 16px;
 
   }
@@ -99,6 +99,18 @@
   .conteudo-secundario-paragrafo {
     font-size: 18px;
   }
+
+/* SKILLS */
+.skills {
+    padding: 40px 10px 20px 10px;
+
+}
+
+.imagens-skills {
+    display: flex;
+    height: 80px;
+    margin: 0px 80px;
+}
 
   /* PROJETOS */
   .conteudo-terciario {
@@ -174,6 +186,6 @@
   
   .rodape {
       padding: 10px;
-      font-size: 1.5em;
+      font-size: 1em;
   }
 
