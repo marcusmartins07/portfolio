@@ -125,7 +125,7 @@
     padding-top: 15px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 2em;
     color: antiquewhite;
     text-align: center;
   }
@@ -143,15 +143,7 @@
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 1em;
-    margin: 30px 15px 30px 15px;
-}
-
-.projetos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 25px 15px;
-    justify-content: center;
+    margin: 30px 15px 0px 15px;
 }
 
 .titulo-projetos {
@@ -162,6 +154,14 @@
     font-size: 2em;
     color: antiquewhite;
     text-align: center;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px 10px;
+    justify-content: center;
 }
 
 .conteudo-projetos{
@@ -182,6 +182,7 @@
 }
 
 .titulo-imagem-projeto {
+    margin-top: 5px;
     font-size: 1em;
     text-align: center;
     color: #3770D4;
