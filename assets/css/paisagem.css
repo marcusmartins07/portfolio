@@ -50,7 +50,7 @@
     display: flex;
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 3.5em;
     color: #3770D4;
 }
 
@@ -88,7 +88,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 15px 10px 20px 10px;
+    padding: 40px 10px 20px 10px;
 }
 
 .logo-rede-social {
@@ -104,7 +104,7 @@
   
   .conteudo-secundario-titulo {
     border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
+    padding-top: 30px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
