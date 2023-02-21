@@ -25,7 +25,7 @@
     font-size: 18px;
 }
 
-/* MAIN */
+/* MAIN --------------------------------------------------------------------------------------------------------------------------------- */ 
 .conteudo {
     margin-bottom: 50px;
     padding: 30px 100px;
@@ -99,7 +99,7 @@
     }
 }
 
-/* REDES SOCIAIS */
+/* REDES SOCIAIS-------------------------------------------------------------------------------------------------------------------------- */
 .imagens-redes-sociais {
     display: flex;
     flex-direction: row;
@@ -112,7 +112,7 @@
     height: 40px;
 }
 
-/* CONTEUDO SECUNDARIO  */
+/* CONTEUDO SECUNDARIO -------------------------------------------------------------------------------------------------------------------- */
 .conteudo-secundario {
     display: flex;
     flex-direction: column;
@@ -136,6 +136,33 @@
     font-size: 18px;
     color: antiquewhite;
   }
+
+  /* PROJETOS */
+.projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.conteudo-projetos{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.imagem-projetos {
+    width: 200px;
+    height: 200px;
+}
+
+.texto-imagem-projetos {
+    width: 200px;
+    display: flex;
+
+}
+
   
   .rodape {
       padding: 10px;
