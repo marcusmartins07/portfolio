@@ -143,14 +143,14 @@
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 1em;
-    margin: 30px 10px 30px 10px;
+    margin: 30px 15px 30px 15px;
 }
 
 .projetos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 25px 25px;
+    gap: 25px 15px;
     justify-content: center;
 }
 
@@ -159,17 +159,17 @@
     padding: 15px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 2em;
     color: antiquewhite;
     text-align: center;
 }
 
 .conteudo-projetos{
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     background-color: #353942;
-    padding: 5px;
+    padding: 10px 10px 10px 10px;
     justify-content: center;
 }
 
@@ -178,9 +178,11 @@
     width: 150px;
     height: 150px;
     background-color: #3770D4;
+    align-self: baseline;
 }
 
 .titulo-imagem-projeto {
+    font-size: 1em;
     text-align: center;
     color: #3770D4;
 }
@@ -189,7 +191,8 @@
     font-size: 0.8em;
     margin: 5px 0px 10px 0px;
     width: 150px;
-    display: flex;
+    height: 60px;
+    display: block;
     text-align: left;
     color: antiquewhite;
 }
@@ -197,6 +200,7 @@
 .botao-projeto {
     display: flex;
     justify-content: center;
+
 }
 
 .texto-botao-projeto {
